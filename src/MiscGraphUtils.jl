@@ -5,6 +5,7 @@ using LightGraphs
 
 export graphcat
 
+# hat tip: @iamed2
 function graphcat(g)
            io = IOBuffer()
            GraphIO.savegml(io, g)
