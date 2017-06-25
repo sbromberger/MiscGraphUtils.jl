@@ -13,6 +13,6 @@ Graph utilities that display LightGraphs in REPL. Requirements:
 
 Usage:
 
-https://user-images.githubusercontent.com/941359/27518793-db5a3f56-599c-11e7-9698-867ae521ede1.png
+![graphcat](https://user-images.githubusercontent.com/941359/27518793-db5a3f56-599c-11e7-9698-867ae521ede1.png)
 
-https://user-images.githubusercontent.com/941359/27518795-db954178-599c-11e7-9748-f8a372c494a2.png
+![gcat](https://user-images.githubusercontent.com/941359/27518795-db954178-599c-11e7-9748-f8a372c494a2.png)
