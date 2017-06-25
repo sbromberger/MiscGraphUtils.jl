@@ -1,7 +1,7 @@
 module MiscGraphUtils
 
 using GraphIO
-using GraphPlots
+using GraphPlot
 using Compose
 using LightGraphs
 
