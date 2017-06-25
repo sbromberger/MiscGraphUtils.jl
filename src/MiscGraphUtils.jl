@@ -17,7 +17,7 @@ function graphcat(g)
            run(p)
 end
 
-function gcat(g, w=4cm, h=4cm)
+function gcat(g, w=8cm, h=8cm)
      io = IOBuffer()
      draw(PNG(io, w, h), gplot(g));
      return nothing
