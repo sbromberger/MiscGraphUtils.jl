@@ -5,7 +5,7 @@ using GraphPlots
 using Compose
 using LightGraphs
 
-export graphcat
+export graphcat, gcat
 
 # hat tip: @iamed2
 function graphcat(g)
