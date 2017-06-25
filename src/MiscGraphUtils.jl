@@ -3,6 +3,7 @@ module MiscGraphUtils
 using GraphIO
 using GraphPlot
 using Compose
+using Measures
 using LightGraphs
 
 export graphcat, gcat
