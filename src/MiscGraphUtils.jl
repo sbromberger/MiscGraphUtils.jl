@@ -16,8 +16,11 @@ function graphcat(g)
            run(p)
 end
 
-function gcat(g, w=4cm, h=4cm)
+function gcat(g, w=4, h=4)
+     wcm = Measures.Length(:cm, w)
+     hcm = Measures.Length(:cm, h)
      io = IOBuffer()
-     draw(PNG(io, w, h), gplot(g));
+     draw(PNG(io, wcm, hcm), gplot(g));
+     return nothing
 end
 end # module
